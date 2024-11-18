@@ -10,7 +10,12 @@ function App() {
     <div className='App'>
       <Nav/>
       <Search foodData = {foodData} setFoodData = {setFoodData}/>
-      <FoodList foodData = {foodData}/>
+      <Container>
+        <InnerContainer>
+          <FoodList foodData = {foodData}/>  {/* Must be rendered as a prop since it is a child component*/}
+        </InnerContainer>
+      </Container>
+      
     </div>
   )
 }
