@@ -1,4 +1,4 @@
-import styles from './item.module.css';
+import Item from './Item'
 
 export default function ItemList(food, isLoading) {
     return (
@@ -7,7 +7,6 @@ export default function ItemList(food, isLoading) {
                 <p>Loading...</p>
             ) : (
                 food.extendedIngredients.map((item) => <Item item={item}/>
-
             ))}
         </div>
     )
