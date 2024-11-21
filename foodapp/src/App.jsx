@@ -16,11 +16,12 @@ function App() {
     <div className="App">
       <Nav />
       <Search setFoodData={setFoodData} />
-      {console.log("From app" + foodData)}
       <Container>
         <InnerContainer>
           <FoodList foodData={foodData} setFoodId={setFoodId} />{" "}
-          {/* Must be rendered as a prop since it is a child component*/}
+        </InnerContainer>
+        <InnerContainer>
+          <FoodDetails foodId={foodId} />
         </InnerContainer>
       </Container>
     </div>

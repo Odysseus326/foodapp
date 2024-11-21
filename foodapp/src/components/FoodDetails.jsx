@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"; // Can import multiple things from the same location in one line
+import { useEffect, useState } from "react";
 import ItemList from "./ItemList";
 import styles from "./foodDetails.module.css";
 
@@ -14,7 +14,7 @@ export default function FoodDetails({ foodId }) {
       const res = await fetch(`${URL}?apiKey=${API_KEY}`);
       const data = await res.json();
       console.log("" + data);
-      setFood("Food selected: " + data);
+      setFood(data);
       setIsLoading(false);
     }
     fetchFood();
@@ -44,9 +44,8 @@ export default function FoodDetails({ foodId }) {
       </div>
       <div>
         <div>
-          <span>{food.pricePerServing / 100} per serving</span>
+          <span>{Number(food.pricePerServing / 100)} per serving</span>
         </div>
-
         <h2>Ingredients</h2>
         <ItemList food={food} isLoading={isLoading} />
         <h2>Instruction</h2>
