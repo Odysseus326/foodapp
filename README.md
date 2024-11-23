@@ -1,5 +1,5 @@
-THIS WEBSITE IS NOW LIVE [HERE](https://evanbrentson.com/)!
-==========================================================
+RECIPE SEARCH SITE
+==================
 
 <p>This website can be used to find interesting recipes.</p>
 
