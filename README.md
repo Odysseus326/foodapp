@@ -1,6 +1,8 @@
 RECIPE SEARCH SITE
 ==================
 
+<p>NOTE: THIS SITE OPERATES WITH A LIMITED NUMBER OF API CALLS PER DAY AND SHOULD RESET AT 4:00PM PST</p>
+
 <p>This website can be used to find interesting recipes.</p>
 
 <p>It utilizes a search bar that can help you find unqiue recipes for common dishes, like pizza or pasta.</p>
