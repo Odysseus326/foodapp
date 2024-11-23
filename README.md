@@ -7,10 +7,11 @@ THIS WEBSITE IS NOW LIVE [HERE](https://evanbrentson.com/)!
 
 <p>It also features a detailed grocery list of items needed to make the recipes, as well as certain facts about the dish (vegan, servings, etc.).</p>
 
-![Short showcase of Evan's personal website, highlighting a couple interactive features.](./personal-website.gif)
+![Short showcase of Evan's food app, highlighting a couple interactive features.](./foodapp-showcase.gif)
 
 <h2>HOW IT WAS MADE</h2>
 <p>This website was built using the React framework, along with the JavaScript, HTML, and CSS languages. </p>
 
 <p>It also benefitted from the <a href="https://spoonacular.com/food-api">Spoonacular API</a>.</p>
 
+<p>This completed project mostly serves as a portfolio piece, although Evan and his partner, along with his roommates will make dishes found here.</p>
