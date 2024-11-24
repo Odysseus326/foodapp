@@ -44,7 +44,9 @@ export default function FoodDetails({ foodId }) {
       </div>
       <div>
         <div>
-          <span>${Number(food.pricePerServing / 100)} per serving</span>
+          <span>
+            ${Number(food.pricePerServing / 100).toFixed(2)} per serving
+          </span>
         </div>
         <h2>Ingredients</h2>
         <ItemList food={food} isLoading={isLoading} />

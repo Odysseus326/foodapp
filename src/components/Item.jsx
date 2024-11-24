@@ -14,8 +14,7 @@ export default function Item({ item }) {
       <div className={styles.nameContainer}>
         <div className={styles.name}>{item.name}</div>
         <div className={styles.amount}>
-          {item.amount}
-          {item.unit}
+          {item.amount.toFixed(2)} {item.unit}
         </div>
       </div>
     </div>
